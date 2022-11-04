@@ -3,6 +3,16 @@
     padding-right: 0;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.slogan-container {
+    margin-top: 400px;
+    padding: 0 !important;
+}
+
 .header-bg {
     width: 100%;
     height: 800px;
@@ -13,7 +23,7 @@
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    box-shadow: 5px 20px 18px #858687b3;
+    box-shadow: 10px 15px 15px #565976b3;
 }
 
 .logo1 {
@@ -21,7 +31,7 @@
     margin-top: 30px;
     float: left;
     margin-left: 30px;
-    box-shadow: 10px 10px 5px hsla(233, 16%, 40%, 0.702);
+    box-shadow: 5px 5px 10px #565976b3;
 }
 
 .logo2 {
@@ -29,13 +39,14 @@
     margin-top: 30px;
     float: left;
     margin-left: 20px;
-    box-shadow: 10px 10px 5px hsla(233, 16%, 40%, 0.702);
+    box-shadow: 5px 5px 10px #565976b3;
 }
 
 .slogan {
     font-size: 350%;
     font-style: italic;
-    position: relative; top: 400px; text-align: right;
+    position: relative; 
+    text-align: right;
     padding-right: 50px;
     color: white;
     background-color: gray;
@@ -49,6 +60,7 @@
     right: 45px;
     top: 35px;
     z-index: 9999;
+    box-shadow: 4px 5px 10px #565976b3;
 }
 
 .dropdown-menu a:hover {background-color: #flflfl;}
@@ -60,7 +72,6 @@
 
 .btn {
     background-color:hsla(223, 48%, 56%, 0.878);
-    opacity: 80%;
 }
 
 .heading {
@@ -68,7 +79,7 @@
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 180;
+    font-size: 120;
     font-weight: bold;
     padding: 0;
 }
@@ -99,6 +110,7 @@
     margin-bottom: 20px;
     width:700px;
     height:450px;
+    box-shadow: 5px 10px 10px #565976b3;
 }   
 
 .carousel-item {
@@ -204,7 +216,7 @@
     width: 55%;
     margin-top: 60px;
     margin-left: -170px;
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 4px 5px 10px #565976b3;
     opacity: 90%;
     position: relative;
 }
@@ -214,7 +226,7 @@
     margin-top: -40px;
     margin-left: 120px;
     z-index: 10;  
-    box-shadow: 5px 10px 5px gray;
+    box-shadow: 4px 5px 10px #565976b3;
     opacity: 90%;
     position: relative;
 }
@@ -239,7 +251,7 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 0px;
-    box-shadow: 4px -19px 18px #858687b3;
+    box-shadow: 10px -15px 15px #565976b3;
 }
 
 .contact-title {
@@ -275,8 +287,8 @@ text-decoration: underline;
     width: 4%;
     float: right;
     position: fixed;
-    margin-top: 450px;
-    margin-left: 1350px;
+    bottom: 10px;
+    right: 10px;
     z-index: 9999;
     opacity: 80%;
 }
@@ -286,7 +298,6 @@ text-decoration: underline;
     float: left;
     margin-left: 50px;
     z-index: 4;
-
 }
 
 .contact-viber {
